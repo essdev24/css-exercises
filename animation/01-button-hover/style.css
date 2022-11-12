@@ -17,3 +17,14 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+.zoom-box {
+  width: 100px;
+  height: 100px;
+  margin: 32px auto;
+  transition: transform .2s;
+}
+
+.zoom-box:hover {
+  transform: scale(1.5);
+}
